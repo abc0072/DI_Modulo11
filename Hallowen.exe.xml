@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Usuario1\Desktop\Hallowen-1.0-SNAPSHOT.jar</jar>
+  <outfile>C:\Users\Usuario1\Desktop\Ejecutable\Hallowen.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>C:\Users\Usuario1\Desktop\Ejecutable\jdk-21_windows-x64_bin\jdk-21.0.9</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>21</minVersion>
+    <maxVersion>25</maxVersion>
+  </jre>
+</launch4jConfig>
