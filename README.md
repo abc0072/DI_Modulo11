@@ -2,7 +2,7 @@
 
 ## Generación del JAR ejecutable
 
-En IntelliJ, una vez dentro del proyecto que queremos exportar como archivo jar, en la parte de la derecha le daremos al símbolo de Maven(que es una m), luego le daremos a Plugins -> Jar -> jar:jar. <br>
+En IntelliJ, una vez dentro del proyecto que queremos exportar como archivo jar, en la parte de la derecha le daremos al símbolo de Maven(que es una m), luego le daremos a `Plugins -> Jar -> jar:jar`. <br>
 Hay que tener en cuenta que tiene que estar bien puesto en el archivo pom.xml la clase main del proyecto dentro de la etiqueta <mainClass>. <br><br>
 Una vez realizados estos pasos se generara el archivo jar, en mi caso es: <br>
 **Hallowen-1.0-SNAPSHOT.jar**
@@ -41,7 +41,7 @@ Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el s�
 
 ## Creación del instalador con Inno Setup
 
-Para crear el instalador abriremos la aplicación Inno SetUp Compiler, luego le daremos a File -> New, luego de haber hecho esto se nos abrira las distintas pestañas de configuración, en las cuales podremos configurar lo que queramos que aparezca una vez que una persona ejecute nuestro instalador, ya sea los idiomas, dejar seleccionar al usuario donde hacer la instalación, añadirle un icono a nuestro ejecutable etc.<br>
+Para crear el instalador abriremos la aplicación Inno SetUp Compiler, luego le daremos a `File -> New`, luego de haber hecho esto se nos abrira las distintas pestañas de configuración, en las cuales podremos configurar lo que queramos que aparezca una vez que una persona ejecute nuestro instalador, ya sea los idiomas, dejar seleccionar al usuario donde hacer la instalación, añadirle un icono a nuestro ejecutable etc.<br>
 Una vez hecho todo esto, se nos generara el siguiente archivo:<br>
 **APlicación Hallowen.exe**
 
