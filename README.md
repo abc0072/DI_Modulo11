@@ -36,7 +36,7 @@ Se utilizó Launch4j para generar el archivo Hallowen.exe a partir del JAR.
 
 Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el símbolo del engranaje) y ya se nos generaría el archivo .exe.
 
-**Importante:** En el caso de pno poder ejecutar el .exe, asegurarse que la versión de su Java este entre la versión 21 y 25, estando esta última no incluida.
+**Importante:** En el caso de no poder ejecutar el .exe, asegurarse que la versión de su Java este entre la versión 21 y 25, estando esta última no incluida.
 
 ### **📸 Captura 2 (Generación correcta de los archivos hechos con Launch4j):**
 <img width="772" height="274" alt="image" src="https://github.com/user-attachments/assets/256ab18a-2f0e-4c6f-b391-f191958a44e0" />
