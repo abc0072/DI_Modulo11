@@ -11,7 +11,8 @@ Y se comprobó su correcto funcionamiento mediante:
 
 java -jar Hallowen-1.0-SNAPSHOT.jar
 
-📸 Captura 1:
+📸 Captura 1 (Ejecución correcta del archivo jar generado con Maven):
+
 <img width="1152" height="403" alt="image" src="https://github.com/user-attachments/assets/ac19cc5f-5d3d-4b7f-b1c8-1e23a4da10f7" />
 
 ## Creación del ejecutable con Launch4j
@@ -36,7 +37,7 @@ Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el s�
 
 Imporrtante: En el caso de pno poder ejecutar el .exe, asegurarse que la versión de su Java este entre la versión 21 y 25, estando esta última no incluida.
 
-📸 Captura 2:
+📸 Captura 2 (Generación correcta de los archivos hechos con Launch4j):
 <img width="772" height="274" alt="image" src="https://github.com/user-attachments/assets/256ab18a-2f0e-4c6f-b391-f191958a44e0" />
 
 ## Creación del instalador con Inno Setup
@@ -46,5 +47,5 @@ Una vez hecho todo esto, se nos generara el siguiente archivo:
 
 **APlicación Hallowen.exe**
 
-📸 Captura 3:
+📸 Captura 3 (Proceso de instalación de la aplicación generada con Inno SetUp):
 <img width="304" height="146" alt="image" src="https://github.com/user-attachments/assets/77bd345b-9d05-4b84-aea9-21dadf42b54c" />
