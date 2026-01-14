@@ -11,6 +11,7 @@ Y se comprobó su correcto funcionamiento mediante:
 
 java -jar Hallowen-1.0-SNAPSHOT.jar
 
+📸 Captura 1:
 <img width="1152" height="403" alt="image" src="https://github.com/user-attachments/assets/ac19cc5f-5d3d-4b7f-b1c8-1e23a4da10f7" />
 
 ## Creación del ejecutable con Launch4j
@@ -33,17 +34,17 @@ Max JRE version: Tendremos que poner la versión máxima del JDK para poder corr
 
 Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el símbolo del engranaje) y ya se nos generaría el archivo .exe.
 
-📸 Captura 3:
-Carpeta HallowenDistribucion con el exe, jar y carpeta jre.
+Imporrtante: En el caso de pno poder ejecutar el .exe, asegurarse que la versión de su Java este entre la versión 21 y 25, estando esta última no incluida.
 
-4️⃣ Creación del instalador con Inno Setup
+📸 Captura 2:
+<img width="772" height="274" alt="image" src="https://github.com/user-attachments/assets/256ab18a-2f0e-4c6f-b391-f191958a44e0" />
 
-Se creó un instalador Windows que copia la aplicación, crea accesos directos y permite la desinstalación completa.
+## Creación del instalador con Inno Setup
 
-Archivo generado:
+Para crear el instalador abriremos la aplicación Inno SetUp Compiler, luego le daremos a File -> New, Luego de haber hecho esto se nos abrira las distintas pestañas de configuración, en las cuales podremos configurar lo que queramos que aparezca una vez que una persona ejecute nuestro instalador, ya sea los idiomas, dejar seleccionar al usuario donde hacer la instalación, añadirle un icono a nuestro ejecutable etc.
+Una vez hecho todo esto, se nos generara el siguiente archivo:
 
-HallowenInstaller.exe
-
+**HallowenInstaller.exe**
 
 Funciones verificadas:
 
