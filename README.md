@@ -47,3 +47,4 @@ Una vez hecho todo esto, se nos generara el siguiente archivo:
 **APlicación Hallowen.exe**
 
 📸 Captura 3:
+<img width="304" height="146" alt="image" src="https://github.com/user-attachments/assets/77bd345b-9d05-4b84-aea9-21dadf42b54c" />
