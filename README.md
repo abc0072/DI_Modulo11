@@ -46,7 +46,7 @@ Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el s�
 ## Creación del instalador con Inno Setup
 
 Para crear el instalador abriremos la aplicación Inno SetUp Compiler, luego le daremos a `File -> New`, luego de haber hecho esto se nos abrira las distintas pestañas de configuración, en las cuales podremos configurar lo que queramos que aparezca una vez que una persona ejecute nuestro instalador, ya sea los idiomas, dejar seleccionar al usuario donde hacer la instalación, añadirle un icono a nuestro ejecutable etc.<br>
-Una vez hecho todo esto, se nos generara el siguiente archivo:<br>
+Una vez hecho todo esto, se nos generara el siguiente archivo, dentro de la carpeta Output:<br>
 **APlicación Hallowen.exe**
 
 ### **📸 Captura 3 (Proceso de instalación de la aplicación generada con Inno SetUp):**
