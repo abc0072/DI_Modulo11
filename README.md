@@ -44,21 +44,6 @@ Imporrtante: En el caso de pno poder ejecutar el .exe, asegurarse que la versió
 Para crear el instalador abriremos la aplicación Inno SetUp Compiler, luego le daremos a File -> New, Luego de haber hecho esto se nos abrira las distintas pestañas de configuración, en las cuales podremos configurar lo que queramos que aparezca una vez que una persona ejecute nuestro instalador, ya sea los idiomas, dejar seleccionar al usuario donde hacer la instalación, añadirle un icono a nuestro ejecutable etc.
 Una vez hecho todo esto, se nos generara el siguiente archivo:
 
-**HallowenInstaller.exe**
+**APlicación Hallowen.exe**
 
-Funciones verificadas:
-
-Instalación correcta.
-
-Acceso directo en escritorio y menú inicio.
-
-Desinstalación sin dejar restos.
-
-📸 Captura 4:
-Pantalla inicial del instalador.
-
-📸 Captura 5:
-Aplicación instalada ejecutándose desde el acceso directo.
-
-📸 Captura 6:
-Pantalla de desinstalación finalizada.
+📸 Captura 3:
