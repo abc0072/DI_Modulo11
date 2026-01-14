@@ -11,34 +11,27 @@ Y se comprobó su correcto funcionamiento mediante:
 
 java -jar Hallowen-1.0-SNAPSHOT.jar
 
+<img width="1152" height="403" alt="image" src="https://github.com/user-attachments/assets/ac19cc5f-5d3d-4b7f-b1c8-1e23a4da10f7" />
 
-
-3️⃣ Creación del ejecutable con Launch4j
+## Creación del ejecutable con Launch4j
 
 Se utilizó Launch4j para generar el archivo Hallowen.exe a partir del JAR.
 
 ⚙ Configuración principal
-Opción	Valor
-Output file	Hallowen.exe
-Jar	Hallowen-1.0-SNAPSHOT-shaded.jar
-Header type	GUI
-Bundled JRE path	jre
-Min JRE version	21
-Max JRE version	25
+Pestaña Basic:
+Output File: Tendremos que poner la ruta donde queremos que se genere el archivo .exe.
+Jar. Tendremos que poner la ruta en la cuál se encuentra nos archivo .jar.
+Icon: Si queremos ponerle un icono a nuestro .exe.
 
-La JRE fue incluida dentro del proyecto para permitir la ejecución en equipos sin Java.
+Pestaña Header:
+Hedaer Type: Seleccionar la opción GUI.
 
-📁 Estructura final
-HallowenDistribucion/
- ├─ Hallowen.exe
- ├─ Hallowen-1.0-SNAPSHOT-shaded.jar
- └─ jre/
-       ├─ bin/
-       └─ lib/
+Pestaña JRE:
+JRE Paths: Tendremos que poner la ubicación de nuestro JDK (en mi caso era el 21).
+Min JRE version: Tendremos que poner la versión mínima del JDK para poder correr el .exe.
+Max JRE version: Tendremos que poner la versión máxima del JDK para poder correr el .exe.
 
-
-📸 Captura 2:
-Ventana de configuración de Launch4j.
+Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el símbolo del engranaje) y ya se nos generaría el archivo .exe.
 
 📸 Captura 3:
 Carpeta HallowenDistribucion con el exe, jar y carpeta jre.
