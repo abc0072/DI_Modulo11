@@ -18,7 +18,7 @@ Y se comprobó su correcto funcionamiento mediante:
 
 Se utilizó Launch4j para generar el archivo Hallowen.exe a partir del JAR.
 
-⚙ Configuración principal <br><br>
+### ⚙ Configuración principal
 **Pestaña Basic:<br>**
 - Output File: Tendremos que poner la ruta donde queremos que se genere el archivo .exe.<br>
 - Jar. Tendremos que poner la ruta en la cuál se encuentra nos archivo .jar.<br>
