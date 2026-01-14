@@ -14,6 +14,8 @@ Y se comprobó su correcto funcionamiento mediante:
 
 <img width="1152" height="403" alt="image" src="https://github.com/user-attachments/assets/ac19cc5f-5d3d-4b7f-b1c8-1e23a4da10f7" />
 
+---
+
 ## Creación del ejecutable con Launch4j
 
 Se utilizó Launch4j para generar el archivo Hallowen.exe a partir del JAR.
@@ -38,6 +40,8 @@ Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el s�
 
 ### **📸 Captura 2 (Generación correcta de los archivos hechos con Launch4j):**
 <img width="772" height="274" alt="image" src="https://github.com/user-attachments/assets/256ab18a-2f0e-4c6f-b391-f191958a44e0" />
+
+---
 
 ## Creación del instalador con Inno Setup
 
