@@ -2,19 +2,16 @@
 
 ## Generación del JAR ejecutable
 
+En IntelliJ, una vez dentro del proyecto que queremos exportar como archivo jar, en la parte de la derecha le daremos al símbolo de Maven(que es una m), luego le daremos a Plugins -> Jar -> jar:jar. Hay que tener en cuenta que tiene que estar bien puesto en el archivo pom.xml la clase main del proyecto dentro de la etiqueta <mainClass>.
+Una vez realizados estos pasos se generara el archivo jar, en mi caso es:
 
-Se generó el archivo:
-
-target/Hallowen-1.0-SNAPSHOT-shaded.jar
-
+**Hallowen-1.0-SNAPSHOT.jar**
 
 Y se comprobó su correcto funcionamiento mediante:
 
-java -jar Hallowen-1.0-SNAPSHOT-shaded.jar
+java -jar Hallowen-1.0-SNAPSHOT.jar
 
 
-📸 Captura 1:
-Consola mostrando la ejecución correcta del JAR y la aplicación abierta.
 
 3️⃣ Creación del ejecutable con Launch4j
 
