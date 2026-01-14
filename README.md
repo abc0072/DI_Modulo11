@@ -20,17 +20,17 @@ Se utilizó Launch4j para generar el archivo Hallowen.exe a partir del JAR.
 
 ⚙ Configuración principal <br><br>
 **Pestaña Basic:<br>**
-Output File: Tendremos que poner la ruta donde queremos que se genere el archivo .exe.<br>
-Jar. Tendremos que poner la ruta en la cuál se encuentra nos archivo .jar.<br>
-Icon: Si queremos ponerle un icono a nuestro .exe.<br>
+- Output File: Tendremos que poner la ruta donde queremos que se genere el archivo .exe.<br>
+- Jar. Tendremos que poner la ruta en la cuál se encuentra nos archivo .jar.<br>
+- Icon: Si queremos ponerle un icono a nuestro .exe.<br>
 
 **Pestaña Header:** <br>
-Hedaer Type: Seleccionar la opción GUI.
+- Header Type: Seleccionar la opción GUI.
 
 **Pestaña JRE:** <br>
-JRE Paths: Tendremos que poner la ubicación de nuestro JDK (en mi caso era el 21).<br>
-Min JRE version: Tendremos que poner la versión mínima del JDK para poder correr el .exe.<br>
-Max JRE version: Tendremos que poner la versión máxima del JDK para poder correr el .exe.<br>
+- JRE Paths: Tendremos que poner la ubicación de nuestro JDK (en mi caso era el 21).<br>
+- Min JRE version: Tendremos que poner la versión mínima del JDK para poder correr el .exe.<br>
+- Max JRE version: Tendremos que poner la versión máxima del JDK para poder correr el .exe.<br>
 
 Una vez configurados estos parámetros, le daremos a Build Wrapper (que es el símbolo del engranaje) y ya se nos generaría el archivo .exe.
 
